@@ -1,0 +1,430 @@
+/* ============================================================
+   AutoElite Motors — Neo-Brutalist Theme
+   Inspired by ChromaDB's bold, high-contrast, pixel-art aesthetic
+   ============================================================ */
+
+/* --- Google Fonts: Monospace + Bold Display --- */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+/* --- Pixel font for headings (via CSS pixel-art simulation) --- */
+@font-face {
+  font-family: 'PixelFont';
+  src: url('https://fonts.gstatic.com/s/pressstart2p/v15/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --- CSS Custom Properties (Neo-Brutalist Palette) --- */
+:root {
+  /* ChromaDB-inspired: warm yellows, electric oranges, deep darks */
+  --neo-yellow: #F7C948;
+  --neo-orange: #FF6B35;
+  --neo-coral: #FF4365;
+  --neo-teal: #2EC4B6;
+  --neo-dark: #1A1A2E;
+  --neo-darker: #0F0F1A;
+  --neo-cream: #FFFBE6;
+  --neo-white: #FAFAF5;
+  --neo-border: #1A1A2E;
+  --neo-shadow: 4px 4px 0px #1A1A2E;
+  --neo-shadow-lg: 6px 6px 0px #1A1A2E;
+  --neo-shadow-hover: 2px 2px 0px #1A1A2E;
+  --neo-radius: 0px;
+  --neo-border-width: 3px;
+  --font-mono: 'Space Mono', 'Courier New', monospace;
+  --font-display: 'Space Grotesk', 'Arial Black', sans-serif;
+}
+
+/* --- Base & Body Override --- */
+body {
+  font-family: var(--font-display) !important;
+  background-color: var(--neo-cream) !important;
+  image-rendering: pixelated;
+}
+
+/* --- Global Animation Keyframes --- */
+@keyframes brutalist-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes brutalist-pulse {
+  0%, 100% { box-shadow: var(--neo-shadow); }
+  50% { box-shadow: 6px 6px 0px var(--neo-orange); }
+}
+
+@keyframes pixel-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes border-dance {
+  0% { border-color: var(--neo-yellow); }
+  25% { border-color: var(--neo-orange); }
+  50% { border-color: var(--neo-coral); }
+  75% { border-color: var(--neo-teal); }
+  100% { border-color: var(--neo-yellow); }
+}
+
+/* --- Scanline overlay effect (subtle CRT feel) --- */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.015) 0px,
+    rgba(0, 0, 0, 0.015) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* --- Header / App Bar --- */
+header,
+.MuiAppBar-root,
+[class*="header"] {
+  background: var(--neo-dark) !important;
+  border-bottom: var(--neo-border-width) solid var(--neo-yellow) !important;
+  box-shadow: 0 4px 0px var(--neo-yellow) !important;
+  font-family: var(--font-display) !important;
+}
+
+/* --- Sidebar --- */
+[class*="sidebar"],
+[class*="Drawer"],
+nav {
+  background: var(--neo-darker) !important;
+  border-right: var(--neo-border-width) solid var(--neo-yellow) !important;
+  font-family: var(--font-mono) !important;
+}
+
+/* --- Chat Messages --- */
+[class*="message"],
+.message {
+  animation: brutalist-slide-in 0.3s ease-out;
+  font-family: var(--font-display) !important;
+}
+
+/* --- User Messages --- */
+[class*="userMessage"],
+.user-message {
+  background: var(--neo-yellow) !important;
+  color: var(--neo-dark) !important;
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: var(--neo-shadow) !important;
+  font-family: var(--font-mono) !important;
+  font-weight: 700 !important;
+  transition: box-shadow 0.15s ease, transform 0.15s ease !important;
+  margin-bottom: 12px !important;
+}
+
+[class*="userMessage"]:hover,
+.user-message:hover {
+  box-shadow: var(--neo-shadow-hover) !important;
+  transform: translate(2px, 2px) !important;
+}
+
+/* --- Bot / Assistant Messages --- */
+[class*="botMessage"],
+.assistant-message,
+[class*="assistantMessage"] {
+  background: var(--neo-white) !important;
+  color: var(--neo-dark) !important;
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: var(--neo-shadow) !important;
+  font-family: var(--font-display) !important;
+  transition: box-shadow 0.15s ease, transform 0.15s ease !important;
+  margin-bottom: 12px !important;
+}
+
+[class*="botMessage"]:hover,
+.assistant-message:hover {
+  box-shadow: var(--neo-shadow-hover) !important;
+  transform: translate(2px, 2px) !important;
+}
+
+/* --- Input Area --- */
+[class*="inputArea"],
+[class*="composer"],
+textarea,
+.MuiInputBase-root {
+  background: var(--neo-white) !important;
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: var(--neo-shadow) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 14px !important;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease !important;
+}
+
+[class*="inputArea"]:focus-within,
+[class*="composer"]:focus-within,
+textarea:focus {
+  border-color: var(--neo-orange) !important;
+  box-shadow: var(--neo-shadow-lg) !important;
+  outline: none !important;
+}
+
+/* --- Buttons (Neo-Brutalist) --- */
+button,
+.MuiButton-root,
+[class*="button"],
+.MuiIconButton-root {
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: var(--neo-shadow) !important;
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  transition: all 0.1s ease !important;
+  cursor: pointer !important;
+  position: relative !important;
+}
+
+button:hover,
+.MuiButton-root:hover,
+[class*="button"]:hover {
+  box-shadow: var(--neo-shadow-hover) !important;
+  transform: translate(2px, 2px) !important;
+}
+
+button:active,
+.MuiButton-root:active {
+  box-shadow: none !important;
+  transform: translate(4px, 4px) !important;
+}
+
+/* --- Primary Action Buttons (Send, etc.) --- */
+button[class*="primary"],
+button[type="submit"],
+[class*="submit"] {
+  background: var(--neo-yellow) !important;
+  color: var(--neo-dark) !important;
+  border-color: var(--neo-border) !important;
+}
+
+button[class*="primary"]:hover,
+button[type="submit"]:hover {
+  background: var(--neo-orange) !important;
+}
+
+/* --- Steps / Retrieval Visualization --- */
+[class*="step"],
+[class*="Step"],
+.step {
+  background: var(--neo-cream) !important;
+  border: 2px dashed var(--neo-teal) !important;
+  border-radius: var(--neo-radius) !important;
+  padding: 8px 12px !important;
+  font-family: var(--font-mono) !important;
+  font-size: 12px !important;
+  animation: brutalist-slide-in 0.4s ease-out;
+}
+
+/* --- Code Blocks --- */
+pre, code {
+  font-family: var(--font-mono) !important;
+  background: var(--neo-darker) !important;
+  color: var(--neo-yellow) !important;
+  border: 2px solid var(--neo-yellow) !important;
+  border-radius: var(--neo-radius) !important;
+  padding: 2px 6px !important;
+}
+
+pre {
+  padding: 12px !important;
+  box-shadow: var(--neo-shadow) !important;
+  overflow-x: auto !important;
+}
+
+/* --- Settings Panel / Dialog --- */
+[class*="dialog"],
+[class*="Dialog"],
+[class*="modal"],
+[class*="Modal"],
+.MuiDialog-paper {
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: 8px 8px 0px var(--neo-dark) !important;
+  background: var(--neo-cream) !important;
+}
+
+/* --- Select / Dropdown --- */
+select,
+[class*="Select"],
+.MuiSelect-root {
+  border: var(--neo-border-width) solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  box-shadow: var(--neo-shadow) !important;
+  font-family: var(--font-mono) !important;
+  background: var(--neo-white) !important;
+}
+
+/* --- Tags / Badges --- */
+[class*="badge"],
+[class*="tag"],
+[class*="chip"],
+.MuiChip-root {
+  background: var(--neo-orange) !important;
+  color: var(--neo-white) !important;
+  border: 2px solid var(--neo-border) !important;
+  border-radius: var(--neo-radius) !important;
+  font-family: var(--font-mono) !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+/* --- Scrollbar (Neo-Brutalist) --- */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--neo-cream);
+  border-left: 2px solid var(--neo-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neo-yellow);
+  border: 2px solid var(--neo-border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neo-orange);
+}
+
+/* --- Links --- */
+a {
+  color: var(--neo-orange) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  font-weight: 600 !important;
+  transition: color 0.15s ease !important;
+}
+
+a:hover {
+  color: var(--neo-coral) !important;
+}
+
+/* --- Loading / Streaming Indicator --- */
+[class*="loading"],
+[class*="streaming"],
+[class*="typing"] {
+  animation: pixel-blink 1s step-end infinite;
+}
+
+/* --- Welcome Screen / Landing --- */
+[class*="welcome"],
+[class*="Welcome"],
+[class*="markdown"] h1 {
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+  letter-spacing: -1px !important;
+}
+
+/* --- Pixel Art Decorative Elements via CSS --- */
+/* Decorative corner pixels on messages */
+[class*="message"]::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  background: var(--neo-yellow);
+  border: 2px solid var(--neo-border);
+}
+
+/* --- Source Citation Footer --- */
+[class*="source"],
+em:last-child {
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+  color: var(--neo-teal) !important;
+  border-top: 2px dashed var(--neo-teal) !important;
+  padding-top: 8px !important;
+  margin-top: 12px !important;
+  display: block;
+}
+
+/* --- Tooltip --- */
+[class*="tooltip"],
+.MuiTooltip-popper {
+  font-family: var(--font-mono) !important;
+  background: var(--neo-dark) !important;
+  color: var(--neo-yellow) !important;
+  border: 2px solid var(--neo-yellow) !important;
+  border-radius: var(--neo-radius) !important;
+}
+
+/* --- Dark Mode Overrides --- */
+[data-theme="dark"] {
+  --neo-cream: #1A1A2E;
+  --neo-white: #16213E;
+  --neo-dark: #E8E8E8;
+  --neo-darker: #0F0F1A;
+  --neo-border: #F7C948;
+  --neo-shadow: 4px 4px 0px #F7C948;
+  --neo-shadow-lg: 6px 6px 0px #F7C948;
+  --neo-shadow-hover: 2px 2px 0px #F7C948;
+}
+
+[data-theme="dark"] body {
+  background: #0F0F1A !important;
+}
+
+[data-theme="dark"] [class*="userMessage"] {
+  background: var(--neo-orange) !important;
+  color: #fff !important;
+}
+
+[data-theme="dark"] [class*="botMessage"],
+[data-theme="dark"] .assistant-message {
+  background: #16213E !important;
+  color: #E8E8E8 !important;
+}
+
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+  background: #0A0A15 !important;
+  color: var(--neo-yellow) !important;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+  :root {
+    --neo-shadow: 3px 3px 0px var(--neo-border);
+    --neo-shadow-lg: 4px 4px 0px var(--neo-border);
+    --neo-border-width: 2px;
+  }
+}
+
+/* --- Selection Color --- */
+::selection {
+  background: var(--neo-yellow);
+  color: var(--neo-dark);
+}

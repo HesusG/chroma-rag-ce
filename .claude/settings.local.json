@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/home/d3r/miniconda3/bin/pip install:*)",
+      "Bash(/home/d3r/miniconda3/bin/python:*)",
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

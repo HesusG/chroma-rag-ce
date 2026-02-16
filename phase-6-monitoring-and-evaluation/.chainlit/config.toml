@@ -1,0 +1,11 @@
+[project]
+enable_telemetry = false
+
+[UI]
+name = "AutoElite Motors (Monitored)"
+description = "AI assistant with full observability for AutoElite Motors"
+default_collapse_content = true
+default_expand_messages = false
+
+[meta]
+generated_by = "1.0.0"

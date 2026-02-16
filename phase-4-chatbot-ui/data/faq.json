@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What are your dealership hours?",
+    "answer": "Our sales team is available Monday through Saturday, 9:00 AM to 8:00 PM, and Sunday 11:00 AM to 5:00 PM. Our service department operates Monday through Friday 7:00 AM to 6:00 PM, and Saturday 8:00 AM to 3:00 PM. We are closed on major holidays.",
+    "category": "general"
+  },
+  {
+    "question": "Do you offer test drives?",
+    "answer": "Yes! We encourage all customers to test drive before purchasing. You will need a valid driver's license and proof of insurance. Test drives are typically 30 minutes along a pre-approved route. You must be 21 or older, or 18+ with a parent or guardian present. Schedule online at www.autoelitemotors.com or call (555) 123-4567.",
+    "category": "general"
+  },
+  {
+    "question": "What financing options do you have?",
+    "answer": "We partner with over 20 national and local lenders to offer competitive rates. New vehicle APR starts at 2.9% and used vehicle APR starts at 4.5% for qualified buyers. Loan terms range from 24 to 72 months with no prepayment penalties. We also welcome credit union and outside financing. First-time buyer programs are available with a co-signer option.",
+    "category": "financing"
+  },
+  {
+    "question": "Can I return a vehicle after purchasing?",
+    "answer": "Yes, AutoElite Motors offers a 7-Day Money-Back Guarantee. Return the vehicle within 7 calendar days for a full refund, provided fewer than 500 miles have been added and the vehicle is in the same condition. Aftermarket modifications void the return policy. Refunds are processed within 10 business days.",
+    "category": "policies"
+  },
+  {
+    "question": "What is included in your Certified Pre-Owned program?",
+    "answer": "Our CPO vehicles undergo a rigorous multi-point inspection and include an extended powertrain warranty up to 7 years or 100,000 miles, a 12-month/12,000-mile comprehensive warranty, a CARFAX vehicle history report, and 24/7 roadside assistance. CPO vehicles offer peace of mind with new-car-like coverage at a used car price.",
+    "category": "cpo"
+  },
+  {
+    "question": "How does trade-in work?",
+    "answer": "We accept trade-ins of all makes and models in any condition. Values are based on Kelley Blue Book, NADA guides, and live auction data. Appraisals are valid for 7 days. Outstanding loan balances are paid off directly, and positive equity goes toward your new purchase. Bring your title, registration, and all keys to the appraisal.",
+    "category": "trade-in"
+  },
+  {
+    "question": "Do you have electric vehicles?",
+    "answer": "Yes! We currently stock the 2024 Tesla Model 3 Long Range and the 2023 Chevrolet Bolt EV 2LT. New EV purchases may qualify for a federal tax credit of up to $7,500. We also offer free Level 2 home charger installation (up to $500 value) and a complimentary 1-year charging subscription at partner stations.",
+    "category": "inventory"
+  },
+  {
+    "question": "What warranty comes with new vehicles?",
+    "answer": "All new vehicles include the full manufacturer warranty, typically covering bumper-to-bumper for 3 years or 36,000 miles, powertrain for 5 years or 60,000 miles, corrosion protection for 5 years, and roadside assistance for 3 years. Hyundai and Kia vehicles come with enhanced coverage including 10-year/100,000-mile powertrain warranties.",
+    "category": "warranty"
+  },
+  {
+    "question": "Do you offer any discounts for military or first responders?",
+    "answer": "Absolutely. We offer an additional $750 discount on any vehicle purchase for active military, veterans, police officers, firefighters, and EMTs. This discount can be combined with manufacturer incentives and other promotions. Please present valid identification at the time of purchase.",
+    "category": "promotions"
+  },
+  {
+    "question": "How do I schedule a service appointment?",
+    "answer": "You can schedule a service appointment online at www.autoelitemotors.com/service, or call us at (555) 123-4567. We offer complimentary multi-point inspections with every visit, use genuine OEM parts, and provide a free shuttle service within 15 miles. All service work comes with a 12-month/12,000-mile warranty.",
+    "category": "service"
+  }
+]

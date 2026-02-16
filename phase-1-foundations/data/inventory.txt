@@ -1,0 +1,90 @@
+AutoElite Motors - Vehicle Inventory
+=====================================
+
+2024 Toyota Camry LE
+Price: $28,990
+Mileage: 15 miles (New)
+Color: Celestial Silver
+Features: Toyota Safety Sense 3.0, 8-inch touchscreen, Apple CarPlay, Android Auto, adaptive cruise control
+Status: Available
+
+---
+
+2024 Honda CR-V EX-L
+Price: $38,450
+Mileage: 22 miles (New)
+Color: Radiant Red Metallic
+Features: 1.5L turbo engine, leather seats, heated front seats, panoramic moonroof, wireless charging, Honda Sensing suite
+Status: Available
+
+---
+
+2023 Ford F-150 XLT SuperCrew
+Price: $47,500
+Mileage: 8,320 miles (Certified Pre-Owned)
+Color: Iconic Silver
+Features: 2.7L EcoBoost V6, 12-inch touchscreen, SYNC 4, 360-degree camera, trailer tow package, spray-in bedliner
+Status: Available
+
+---
+
+2024 Chevrolet Equinox RS
+Price: $33,200
+Mileage: 10 miles (New)
+Color: Sterling Gray Metallic
+Features: 1.5L turbo, RS sport package, 17-inch black wheels, dual-zone climate, 11.3-inch touchscreen, Chevy Safety Assist
+Status: Available
+
+---
+
+2023 BMW 330i xDrive
+Price: $44,800
+Mileage: 12,450 miles (Certified Pre-Owned)
+Color: Alpine White
+Features: 2.0L TwinPower turbo, sport suspension, 12.3-inch digital cluster, leather upholstery, Harman Kardon sound, heated steering wheel
+Status: Reserved
+
+---
+
+2024 Hyundai Tucson SEL
+Price: $31,750
+Mileage: 18 miles (New)
+Color: Amazon Gray
+Features: 2.5L engine, 8-inch touchscreen, Hyundai SmartSense, blind-spot monitoring, LED headlamps, wireless Android Auto and Apple CarPlay
+Status: Available
+
+---
+
+2022 Toyota RAV4 Hybrid XLE
+Price: $34,200
+Mileage: 18,900 miles (Certified Pre-Owned)
+Color: Blueprint
+Features: 2.5L hybrid powertrain, 8-inch display, Toyota Safety Sense 2.5+, power liftgate, roof rails, all-wheel drive
+Status: Available
+
+---
+
+2024 Ford Bronco Sport Big Bend
+Price: $35,890
+Mileage: 30 miles (New)
+Color: Area 51 Blue
+Features: 1.5L EcoBoost, SYNC 3, Ford Co-Pilot360, terrain management system, roof rack, rubberized flooring
+Status: Available
+
+---
+
+2023 Honda Civic Sport Touring
+Price: $31,500
+Mileage: 5,200 miles (Certified Pre-Owned)
+Color: Rallye Red
+Features: 1.5L turbo, Bose audio, wireless CarPlay, heated seats, Honda Sensing, sport pedals, dual exhaust
+Status: Sold
+
+---
+
+2024 Chevrolet Silverado 1500 LT
+Price: $49,900
+Mileage: 45 miles (New)
+Color: Northsky Blue Metallic
+Features: 5.3L V8, 13.4-inch touchscreen, trailering package, remote start, multi-flex tailgate, Chevy Safety Assist
+Status: Available

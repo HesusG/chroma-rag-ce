@@ -1,0 +1,222 @@
+[
+  {
+    "id": "TKT-001",
+    "customer": "John Smith",
+    "date": "2025-01-15",
+    "issue": "Oil change took 3 hours instead of the promised 45 minutes",
+    "category": "Service",
+    "priority": "Medium",
+    "assigned_to": "James Wilson",
+    "status": "Resolved",
+    "notes": ["Customer waited in lobby", "Technician was handling another vehicle", "Offered free detail as compensation"]
+  },
+  {
+    "id": "TKT-002",
+    "customer": "Patricia Alvarez",
+    "date": "2025-01-16",
+    "issue": "Brake pads replaced two months ago are already squeaking on 2023 Toyota Camry",
+    "category": "Service",
+    "priority": "High",
+    "assigned_to": "James Wilson",
+    "status": "In Progress",
+    "notes": ["Customer returned for re-inspection", "Technician confirmed premature wear on front pads", "Ordering replacement pads under service warranty"]
+  },
+  {
+    "id": "TKT-003",
+    "customer": "Gregory Thornton",
+    "date": "2025-01-17",
+    "issue": "Check engine light on 2024 Hyundai Tucson appeared 500 miles after purchase",
+    "category": "Service",
+    "priority": "High",
+    "assigned_to": "Mike Chen",
+    "status": "Resolved",
+    "notes": ["Diagnostic revealed loose gas cap triggering EVAP code", "Cleared code and tightened cap", "Customer advised on proper fueling procedure"]
+  },
+  {
+    "id": "TKT-004",
+    "customer": "Diane Crawford",
+    "date": "2025-01-18",
+    "issue": "Windshield washer fluid reservoir cracked on new 2024 Ford Bronco Sport during first week",
+    "category": "Service",
+    "priority": "Medium",
+    "assigned_to": "James Wilson",
+    "status": "Resolved",
+    "notes": ["Covered under new vehicle warranty", "Replacement part installed same day", "Customer satisfied with turnaround time"]
+  },
+  {
+    "id": "TKT-005",
+    "customer": "Marcus Jefferson",
+    "date": "2025-01-19",
+    "issue": "Interested in the 2024 Kia EV6 GT-Line but wants to compare it with the Hyundai Ioniq 5",
+    "category": "Sales",
+    "priority": "Medium",
+    "assigned_to": "Sarah Johnson",
+    "status": "Open",
+    "notes": ["Scheduled side-by-side test drives for both vehicles", "Prepared comparison sheet on range, features, and pricing", "Customer plans to visit Saturday afternoon"]
+  },
+  {
+    "id": "TKT-006",
+    "customer": "Laura Bennett",
+    "date": "2025-01-20",
+    "issue": "Online price for 2024 Chevrolet Equinox RS does not match the price quoted in person",
+    "category": "Sales",
+    "priority": "High",
+    "assigned_to": "Mike Chen",
+    "status": "Escalated",
+    "notes": ["Website showed $31,500 but in-store quote was $33,200", "Web team confirmed promotional pricing had expired but page was not updated", "Sales manager approved honoring the online price", "IT team notified to fix pricing sync"]
+  },
+  {
+    "id": "TKT-007",
+    "customer": "Steven Blackwell",
+    "date": "2025-01-21",
+    "issue": "Customer wants to trade in 2019 Nissan Rogue and feels the appraisal value is too low",
+    "category": "Sales",
+    "priority": "Medium",
+    "assigned_to": "Lisa Patel",
+    "status": "Resolved",
+    "notes": ["Initial appraisal was $14,200", "Customer provided KBB estimate of $16,500", "Re-appraised at $15,400 after accounting for condition adjustments", "Customer accepted revised offer with trade-in bonus promotion applied"]
+  },
+  {
+    "id": "TKT-008",
+    "customer": "Angela Morrison",
+    "date": "2025-01-22",
+    "issue": "Reserved a 2024 Toyota Tacoma TRD Off-Road online but vehicle was sold to a walk-in customer",
+    "category": "Sales",
+    "priority": "High",
+    "assigned_to": "Sarah Johnson",
+    "status": "In Progress",
+    "notes": ["Online reservation system did not flag the vehicle as held", "Escalated to general manager", "Searching partner dealerships for identical configuration", "Located matching vehicle 60 miles away, arranging dealer transfer"]
+  },
+  {
+    "id": "TKT-009",
+    "customer": "William Tran",
+    "date": "2025-01-23",
+    "issue": "Monthly payment on 2024 Honda CR-V is $52 more than the amount discussed during financing",
+    "category": "Financing",
+    "priority": "High",
+    "assigned_to": "Lisa Patel",
+    "status": "In Progress",
+    "notes": ["Customer states agreed payment was $589 per month but statement shows $641", "Reviewing signed finance contract and deal jacket", "Discrepancy may be due to GAP insurance added at signing", "Scheduled call with customer to review line items"]
+  },
+  {
+    "id": "TKT-010",
+    "customer": "Natalie Reeves",
+    "date": "2025-01-24",
+    "issue": "Wants to know if she can refinance her auto loan through AutoElite Motors for a lower rate",
+    "category": "Financing",
+    "priority": "Low",
+    "assigned_to": "Lisa Patel",
+    "status": "Resolved",
+    "notes": ["Current rate is 6.9% APR on 2022 Subaru Outback", "Ran soft credit pull showing improved score since original purchase", "Offered refinance at 5.2% APR through partner lender", "Customer accepted new terms, paperwork completed"]
+  },
+  {
+    "id": "TKT-011",
+    "customer": "Derek Simmons",
+    "date": "2025-01-25",
+    "issue": "Financing application has been pending for over 10 days with no update on 2024 BMW X3",
+    "category": "Financing",
+    "priority": "High",
+    "assigned_to": "Lisa Patel",
+    "status": "Escalated",
+    "notes": ["Application was stuck at third-party lender verification stage", "Contacted lender directly and identified missing employer verification", "Customer resubmitted employment documents", "Approval received within 48 hours of resubmission"]
+  },
+  {
+    "id": "TKT-012",
+    "customer": "Rachel Kim",
+    "date": "2025-01-26",
+    "issue": "Questions about federal EV tax credit eligibility for the 2023 Kia EV6 GT-Line",
+    "category": "Financing",
+    "priority": "Low",
+    "assigned_to": "Sarah Johnson",
+    "status": "Resolved",
+    "notes": ["Confirmed 2023 Kia EV6 qualifies for up to $7,500 federal tax credit", "Provided IRS guidelines document and income threshold information", "Recommended customer consult with tax advisor for personal eligibility"]
+  },
+  {
+    "id": "TKT-013",
+    "customer": "Carlos Mendez",
+    "date": "2025-01-27",
+    "issue": "Ordered OEM roof rack crossbars for 2024 Toyota Highlander Hybrid three weeks ago, still not received",
+    "category": "Parts",
+    "priority": "Medium",
+    "assigned_to": "James Wilson",
+    "status": "In Progress",
+    "notes": ["Part number PT278-48210 confirmed on backorder from Toyota", "Estimated arrival pushed from February 5 to February 18", "Customer notified of updated timeline", "Offered to source aftermarket alternative if customer prefers"]
+  },
+  {
+    "id": "TKT-014",
+    "customer": "Hannah Kirkpatrick",
+    "date": "2025-01-28",
+    "issue": "Needs replacement key fob for 2023 Jeep Wrangler Sahara 4xe after losing original",
+    "category": "Parts",
+    "priority": "Medium",
+    "assigned_to": "Mike Chen",
+    "status": "Resolved",
+    "notes": ["Replacement fob ordered from Mopar, part number 68416782AB", "Fob received and programmed within 5 business days", "Customer picked up and confirmed both fobs work correctly"]
+  },
+  {
+    "id": "TKT-015",
+    "customer": "Robert Chen",
+    "date": "2025-01-29",
+    "issue": "Warranty claim for defective passenger seat heater element on 2023 BMW 330i xDrive",
+    "category": "Parts",
+    "priority": "Medium",
+    "assigned_to": "James Wilson",
+    "status": "Open",
+    "notes": ["Confirmed vehicle is within 3-year bumper-to-bumper warranty", "Warranty claim submitted to BMW North America", "Awaiting parts authorization and shipment"]
+  },
+  {
+    "id": "TKT-016",
+    "customer": "Susan Chambers",
+    "date": "2025-01-30",
+    "issue": "Wants to know dealership hours for the upcoming Presidents Day weekend",
+    "category": "General Inquiry",
+    "priority": "Low",
+    "assigned_to": "Sarah Johnson",
+    "status": "Resolved",
+    "notes": ["Informed customer: Saturday 9 AM - 6 PM, Sunday 11 AM - 5 PM, Monday (Presidents Day) special hours 10 AM - 6 PM", "Customer plans to visit Sunday"]
+  },
+  {
+    "id": "TKT-017",
+    "customer": "Kevin O'Brien",
+    "date": "2025-01-31",
+    "issue": "Out-of-state buyer asking about vehicle shipping options for 2024 Nissan Frontier PRO-4X",
+    "category": "General Inquiry",
+    "priority": "Medium",
+    "assigned_to": "Mike Chen",
+    "status": "In Progress",
+    "notes": ["Customer is located in Colorado, approximately 1,200 miles away", "Obtained shipping quotes from two transport partners", "Enclosed transport: $1,450, open transport: $950", "Awaiting customer decision on shipping method"]
+  },
+  {
+    "id": "TKT-018",
+    "customer": "Evelyn Marshall",
+    "date": "2025-02-01",
+    "issue": "Positive feedback about exceptional service experience during recent oil change visit",
+    "category": "General Inquiry",
+    "priority": "Low",
+    "assigned_to": "James Wilson",
+    "status": "Resolved",
+    "notes": ["Customer praised technician David Ramirez for thoroughness and communication", "Feedback logged in employee recognition system", "Thank you card sent to customer", "Shared positive feedback in weekly team meeting"]
+  },
+  {
+    "id": "TKT-019",
+    "customer": "Brian Foster",
+    "date": "2025-02-02",
+    "issue": "Charging system on 2023 Jeep Wrangler 4xe not engaging at home Level 2 charger after recent service visit",
+    "category": "Service",
+    "priority": "High",
+    "assigned_to": "Mike Chen",
+    "status": "Open",
+    "notes": ["Customer reports vehicle was charging fine before last service appointment", "Possible issue with charge port or onboard charger module", "Scheduled diagnostic for February 5", "Loaner vehicle provided in the meantime"]
+  },
+  {
+    "id": "TKT-020",
+    "customer": "Linda Ashford",
+    "date": "2025-02-03",
+    "issue": "Inquiring about the trade-in process and documents needed to trade a 2017 Honda Pilot for a new SUV",
+    "category": "General Inquiry",
+    "priority": "Low",
+    "assigned_to": "Lisa Patel",
+    "status": "Open",
+    "notes": ["Sent trade-in checklist: title, registration, valid ID, loan payoff statement if applicable", "Offered complimentary vehicle appraisal at customer's convenience", "Customer indicated interest in 2024 Kia Telluride or Hyundai Palisade"]
+  }
+]

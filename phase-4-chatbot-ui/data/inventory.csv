@@ -1,0 +1,13 @@
+year,make,model,trim,price,mileage,condition,color,category,features,status
+2024,Toyota,Camry,LE,28990,15,New,Celestial Silver,sedan,"Toyota Safety Sense 3.0, 8-inch touchscreen, Apple CarPlay, Android Auto, adaptive cruise control",Available
+2024,Honda,CR-V,EX-L,38450,22,New,Radiant Red Metallic,suv,"1.5L turbo engine, leather seats, heated front seats, panoramic moonroof, wireless charging, Honda Sensing suite",Available
+2023,Ford,F-150,XLT SuperCrew,47500,8320,Certified Pre-Owned,Iconic Silver,truck,"2.7L EcoBoost V6, 12-inch touchscreen, SYNC 4, 360-degree camera, trailer tow package, spray-in bedliner",Available
+2024,Chevrolet,Equinox,RS,33200,10,New,Sterling Gray Metallic,suv,"1.5L turbo, RS sport package, 17-inch black wheels, dual-zone climate, 11.3-inch touchscreen, Chevy Safety Assist",Available
+2023,BMW,330i,xDrive,44800,12450,Certified Pre-Owned,Alpine White,sedan,"2.0L TwinPower turbo, sport suspension, 12.3-inch digital cluster, leather upholstery, Harman Kardon sound, heated steering wheel",Reserved
+2024,Hyundai,Tucson,SEL,31750,18,New,Amazon Gray,suv,"2.5L engine, 8-inch touchscreen, Hyundai SmartSense, blind-spot monitoring, LED headlamps, wireless Android Auto and Apple CarPlay",Available
+2022,Toyota,RAV4 Hybrid,XLE,34200,18900,Certified Pre-Owned,Blueprint,suv,"2.5L hybrid powertrain, 8-inch display, Toyota Safety Sense 2.5+, power liftgate, roof rails, all-wheel drive",Available
+2024,Ford,Bronco Sport,Big Bend,35890,30,New,Area 51 Blue,suv,"1.5L EcoBoost, SYNC 3, Ford Co-Pilot360, terrain management system, roof rack, rubberized flooring",Available
+2023,Honda,Civic,Sport Touring,31500,5200,Certified Pre-Owned,Rallye Red,sedan,"1.5L turbo, Bose audio, wireless CarPlay, heated seats, Honda Sensing, sport pedals, dual exhaust",Sold
+2024,Chevrolet,Silverado 1500,LT,49900,45,New,Northsky Blue Metallic,truck,"5.3L V8, 13.4-inch touchscreen, trailering package, remote start, multi-flex tailgate, Chevy Safety Assist",Available
+2024,Tesla,Model 3,Long Range,42990,5,New,Pearl White,ev,"Dual motor AWD, 358-mile range, 15-inch touchscreen, Autopilot, glass roof, premium audio",Available
+2023,Chevrolet,Bolt EV,2LT,27500,3200,Certified Pre-Owned,Bright Blue Metallic,ev,"200-mile range, 10.2-inch touchscreen, DC fast charging, adaptive cruise, heated seats",Available

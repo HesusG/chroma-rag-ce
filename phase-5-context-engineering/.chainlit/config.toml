@@ -1,0 +1,13 @@
+[project]
+enable_telemetry = false
+
+[UI]
+name = "AutoElite Motors (Context Engineering)"
+description = "AI assistant with context engineering for AutoElite Motors"
+default_collapse_content = true
+default_expand_messages = false
+custom_css = "/public/stylesheet.css"
+default_theme = "dark"
+
+[meta]
+generated_by = "1.0.0"
