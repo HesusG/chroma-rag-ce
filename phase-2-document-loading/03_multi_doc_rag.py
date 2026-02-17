@@ -33,7 +33,7 @@ CHROMA_DIR = Path(__file__).parent / "chroma_db"
 
 TOGETHER_MODEL = os.getenv(
     "TOGETHER_MODEL",
-    "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+    "meta-llama/Llama-3.3-70B-Instruct-Turbo",
 )
 
 COLLECTION_NAME = "autoelite_phase2"

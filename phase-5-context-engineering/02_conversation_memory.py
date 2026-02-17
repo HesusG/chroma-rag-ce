@@ -277,7 +277,7 @@ def main():
     print("about information from Turn 1. Which strategy remembers?")
 
     llm = ChatTogether(
-        model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        model="meta-llama/Llama-3.3-70B-Instruct-Turbo",
         temperature=0.3,
         max_tokens=256,
     )

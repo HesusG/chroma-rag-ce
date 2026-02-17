@@ -95,7 +95,7 @@ def run_traced_llm_call():
     from langchain_core.messages import HumanMessage, SystemMessage
 
     llm = ChatTogether(
-        model=os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"),
+        model=os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo"),
         temperature=0.3,
         max_tokens=512,
     )

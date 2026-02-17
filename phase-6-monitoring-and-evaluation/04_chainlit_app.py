@@ -109,10 +109,10 @@ except ImportError:
 # -------------------------------------------------------------------------
 
 DATA_DIR = Path(__file__).parent / "data"
-DEFAULT_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+DEFAULT_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 MODELS = {
-    "Llama 3.3 70B (Free)": "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    "DeepSeek R1 70B (Free)": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
+    "Llama 3.3 70B": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "DeepSeek R1 70B": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
     "Qwen 2.5 7B": "Qwen/Qwen2.5-7B-Instruct-Turbo",
     "Llama 3.1 8B": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
 }

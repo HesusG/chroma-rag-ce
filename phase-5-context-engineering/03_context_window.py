@@ -240,7 +240,7 @@ def main():
     print("Summarizing older conversation history to reclaim tokens.\n")
 
     llm = ChatTogether(
-        model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        model="meta-llama/Llama-3.3-70B-Instruct-Turbo",
         temperature=0.2,
         max_tokens=150,
     )

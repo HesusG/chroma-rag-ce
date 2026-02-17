@@ -1,31 +1,31 @@
-id,make,model,year,trim,price,mileage,color,features,status
-1,Toyota,Camry,2024,LE,28990,15,Celestial Silver,"Toyota Safety Sense 3.0, 8-inch touchscreen, Apple CarPlay, Android Auto, adaptive cruise control",Available
-2,Honda,CR-V,2024,EX-L,38450,22,Radiant Red Metallic,"1.5L turbo, leather seats, heated front seats, panoramic moonroof, wireless charging, Honda Sensing",Available
-3,Ford,F-150,2023,XLT SuperCrew,47500,8320,Iconic Silver,"2.7L EcoBoost V6, 12-inch touchscreen, SYNC 4, 360-degree camera, trailer tow package, bedliner",Available
-4,Chevrolet,Equinox,2024,RS,33200,10,Sterling Gray Metallic,"1.5L turbo, RS sport package, 17-inch black wheels, dual-zone climate, 11.3-inch touchscreen",Available
-5,BMW,330i,2023,xDrive,44800,12450,Alpine White,"2.0L TwinPower turbo, sport suspension, 12.3-inch digital cluster, leather, Harman Kardon",Reserved
-6,Hyundai,Tucson,2024,SEL,31750,18,Amazon Gray,"2.5L engine, 8-inch touchscreen, Hyundai SmartSense, blind-spot monitoring, LED headlamps",Available
-7,Toyota,RAV4 Hybrid,2022,XLE,34200,18900,Blueprint,"2.5L hybrid, 8-inch display, Safety Sense 2.5+, power liftgate, roof rails, AWD",Available
-8,Ford,Bronco Sport,2024,Big Bend,35890,30,Area 51 Blue,"1.5L EcoBoost, SYNC 3, Co-Pilot360, terrain management, roof rack, rubberized flooring",Available
-9,Honda,Civic,2023,Sport Touring,31500,5200,Rallye Red,"1.5L turbo, Bose audio, wireless CarPlay, heated seats, Honda Sensing, dual exhaust",Sold
-10,Chevrolet,Silverado 1500,2024,LT,49900,45,Northsky Blue Metallic,"5.3L V8, 13.4-inch touchscreen, trailering package, remote start, multi-flex tailgate",Available
-11,Kia,Telluride,2024,EX,42500,28,Glacial White Pearl,"3.8L V6, 8-passenger seating, sunroof, heated/ventilated front seats, Highway Driving Assist",Available
-12,Nissan,Altima,2024,SR,29800,12,Scarlet Ember Tintcoat,"2.5L engine, sport-tuned suspension, 12.3-inch touchscreen, ProPILOT Assist, Bose audio",Available
-13,Subaru,Outback,2023,Limited,36400,9800,Autumn Green Metallic,"2.5L Boxer, EyeSight Driver Assist, 11.6-inch vertical display, leather, heated seats, AWD",Available
-14,Jeep,Grand Cherokee,2024,Limited,48900,35,Diamond Black Crystal,"3.6L V6, Uconnect 5, 10.1-inch touchscreen, Quadra-Trac II 4WD, adaptive cruise, air suspension",Reserved
-15,Toyota,Corolla,2024,SE,24500,8,Ice Cap White,"2.0L engine, 8-inch touchscreen, Toyota Safety Sense 3.0, sport body kit, 18-inch alloys",Available
-16,Hyundai,Ioniq 5,2024,SE Long Range,45200,40,Cyber Gray,"77.4 kWh battery, 303-mile range, fast charging, 12.3-inch dual displays, Vehicle-to-Load",Available
-17,Ford,Mustang Mach-E,2023,Select AWD,42800,6500,Grabber Blue,"Extended range battery, 13.2-inch touchscreen, BlueCruise, 346 hp, heated front seats",Available
-18,Chevrolet,Bolt EUV,2023,Premier,28500,11200,Silver Flare Metallic,"65 kWh battery, Super Cruise, 10.2-inch touchscreen, heated/ventilated seats, Bose audio",Sold
-19,BMW,X3,2024,xDrive30i,51200,150,Phytonic Blue,"2.0L turbo, 12.3-inch curved display, Vernasca leather, panoramic roof, parking assistant",Available
-20,Kia,Sportage,2024,X-Line,34900,20,Dawning Red,"2.5L engine, dual 12.3-inch curved displays, AWD, synthetic leather, Harman Kardon audio",Available
-21,Nissan,Rogue,2023,SL,35600,14300,Everest White,"1.5L VC-Turbo, ProPILOT Assist, quilted leather, 12.3-inch display, 360-degree camera",Available
-22,Subaru,Crosstrek,2024,Premium,30200,25,Oasis Turquoise,"2.0L Boxer, EyeSight, 11.6-inch touchscreen, X-MODE, roof rails, all-weather package",Available
-23,Jeep,Wrangler,2023,Sahara 4xe,52800,7800,Sarge Green,"2.0L turbo plug-in hybrid, Sky One-Touch power top, 12.3-inch display, LED lighting, Dana 44 axles",Available
-24,Toyota,Tacoma,2024,TRD Off-Road,41200,55,Lunar Rock,"2.4L turbo, Multi-Terrain Select, crawl control, TRD suspension, 14-inch touchscreen",Available
-25,Honda,Accord,2024,EX-L,34600,30,Canyon River Blue,"1.5L turbo, 12.3-inch touchscreen, wireless CarPlay, leather, Honda Sensing, 10-way power seat",Available
-26,Ford,Explorer,2024,XLT,43500,60,Star White Metallic,"2.3L EcoBoost, 13.2-inch touchscreen, SYNC 4, BlueCruise, 3rd row seating, panoramic roof",Available
-27,Hyundai,Palisade,2024,Calligraphy,52300,40,Hyper White,"3.8L V6, Nappa leather, premium Harman Kardon audio, highway driving assist, heads-up display",Reserved
-28,Kia,EV6,2023,GT-Line AWD,53900,3200,Runway Red,"77.4 kWh battery, 310-mile range, dual motor AWD, 14.1-inch dual displays, augmented reality HUD",Available
-29,Nissan,Frontier,2024,PRO-4X,40800,100,Tactical Green Metallic,"3.8L V6, Bilstein off-road shocks, electronic locking diff, 9-inch touchscreen, 360 camera",Available
-30,Toyota,Highlander Hybrid,2024,XLE,44100,20,Cypress Green,"2.5L hybrid, AWD, 12.3-inch touchscreen, Toyota Safety Sense 3.0, 3rd row, JBL audio",Available
+id,make,model,year,trim,price,mileage,condition,color,category,features,status
+1,Toyota,Camry,2024,LE,28990,15,New,Celestial Silver,sedan,"Toyota Safety Sense 3.0, 8-inch touchscreen, Apple CarPlay, Android Auto, adaptive cruise control",Available
+2,Honda,CR-V,2024,EX-L,38450,22,New,Radiant Red Metallic,suv,"1.5L turbo, leather seats, heated front seats, panoramic moonroof, wireless charging, Honda Sensing",Available
+3,Ford,F-150,2023,XLT SuperCrew,47500,8320,Certified Pre-Owned,Iconic Silver,truck,"2.7L EcoBoost V6, 12-inch touchscreen, SYNC 4, 360-degree camera, trailer tow package, bedliner",Available
+4,Chevrolet,Equinox,2024,RS,33200,10,New,Sterling Gray Metallic,suv,"1.5L turbo, RS sport package, 17-inch black wheels, dual-zone climate, 11.3-inch touchscreen",Available
+5,BMW,330i,2023,xDrive,44800,12450,Certified Pre-Owned,Alpine White,sedan,"2.0L TwinPower turbo, sport suspension, 12.3-inch digital cluster, leather, Harman Kardon",Reserved
+6,Hyundai,Tucson,2024,SEL,31750,18,New,Amazon Gray,suv,"2.5L engine, 8-inch touchscreen, Hyundai SmartSense, blind-spot monitoring, LED headlamps",Available
+7,Toyota,RAV4 Hybrid,2022,XLE,34200,18900,Certified Pre-Owned,Blueprint,suv,"2.5L hybrid, 8-inch display, Safety Sense 2.5+, power liftgate, roof rails, AWD",Available
+8,Ford,Bronco Sport,2024,Big Bend,35890,30,New,Area 51 Blue,suv,"1.5L EcoBoost, SYNC 3, Co-Pilot360, terrain management, roof rack, rubberized flooring",Available
+9,Honda,Civic,2023,Sport Touring,31500,5200,Certified Pre-Owned,Rallye Red,sedan,"1.5L turbo, Bose audio, wireless CarPlay, heated seats, Honda Sensing, dual exhaust",Sold
+10,Chevrolet,Silverado 1500,2024,LT,49900,45,New,Northsky Blue Metallic,truck,"5.3L V8, 13.4-inch touchscreen, trailering package, remote start, multi-flex tailgate",Available
+11,Kia,Telluride,2024,EX,42500,28,New,Glacial White Pearl,suv,"3.8L V6, 8-passenger seating, sunroof, heated/ventilated front seats, Highway Driving Assist",Available
+12,Nissan,Altima,2024,SR,29800,12,New,Scarlet Ember Tintcoat,sedan,"2.5L engine, sport-tuned suspension, 12.3-inch touchscreen, ProPILOT Assist, Bose audio",Available
+13,Subaru,Outback,2023,Limited,36400,9800,Certified Pre-Owned,Autumn Green Metallic,suv,"2.5L Boxer, EyeSight Driver Assist, 11.6-inch vertical display, leather, heated seats, AWD",Available
+14,Jeep,Grand Cherokee,2024,Limited,48900,35,New,Diamond Black Crystal,suv,"3.6L V6, Uconnect 5, 10.1-inch touchscreen, Quadra-Trac II 4WD, adaptive cruise, air suspension",Reserved
+15,Toyota,Corolla,2024,SE,24500,8,New,Ice Cap White,sedan,"2.0L engine, 8-inch touchscreen, Toyota Safety Sense 3.0, sport body kit, 18-inch alloys",Available
+16,Hyundai,Ioniq 5,2024,SE Long Range,45200,40,New,Cyber Gray,ev,"77.4 kWh battery, 303-mile range, fast charging, 12.3-inch dual displays, Vehicle-to-Load",Available
+17,Ford,Mustang Mach-E,2023,Select AWD,42800,6500,Certified Pre-Owned,Grabber Blue,ev,"Extended range battery, 13.2-inch touchscreen, BlueCruise, 346 hp, heated front seats",Available
+18,Chevrolet,Bolt EUV,2023,Premier,28500,11200,Certified Pre-Owned,Silver Flare Metallic,ev,"65 kWh battery, Super Cruise, 10.2-inch touchscreen, heated/ventilated seats, Bose audio",Sold
+19,BMW,X3,2024,xDrive30i,51200,150,Certified Pre-Owned,Phytonic Blue,suv,"2.0L turbo, 12.3-inch curved display, Vernasca leather, panoramic roof, parking assistant",Available
+20,Kia,Sportage,2024,X-Line,34900,20,New,Dawning Red,suv,"2.5L engine, dual 12.3-inch curved displays, AWD, synthetic leather, Harman Kardon audio",Available
+21,Nissan,Rogue,2023,SL,35600,14300,Certified Pre-Owned,Everest White,suv,"1.5L VC-Turbo, ProPILOT Assist, quilted leather, 12.3-inch display, 360-degree camera",Available
+22,Subaru,Crosstrek,2024,Premium,30200,25,New,Oasis Turquoise,suv,"2.0L Boxer, EyeSight, 11.6-inch touchscreen, X-MODE, roof rails, all-weather package",Available
+23,Jeep,Wrangler,2023,Sahara 4xe,52800,7800,Certified Pre-Owned,Sarge Green,suv,"2.0L turbo plug-in hybrid, Sky One-Touch power top, 12.3-inch display, LED lighting, Dana 44 axles",Available
+24,Toyota,Tacoma,2024,TRD Off-Road,41200,55,New,Lunar Rock,truck,"2.4L turbo, Multi-Terrain Select, crawl control, TRD suspension, 14-inch touchscreen",Available
+25,Honda,Accord,2024,EX-L,34600,30,New,Canyon River Blue,sedan,"1.5L turbo, 12.3-inch touchscreen, wireless CarPlay, leather, Honda Sensing, 10-way power seat",Available
+26,Ford,Explorer,2024,XLT,43500,60,New,Star White Metallic,suv,"2.3L EcoBoost, 13.2-inch touchscreen, SYNC 4, BlueCruise, 3rd row seating, panoramic roof",Available
+27,Hyundai,Palisade,2024,Calligraphy,52300,40,New,Hyper White,suv,"3.8L V6, Nappa leather, premium Harman Kardon audio, highway driving assist, heads-up display",Reserved
+28,Kia,EV6,2023,GT-Line AWD,53900,3200,Certified Pre-Owned,Runway Red,ev,"77.4 kWh battery, 310-mile range, dual motor AWD, 14.1-inch dual displays, augmented reality HUD",Available
+29,Nissan,Frontier,2024,PRO-4X,40800,100,Certified Pre-Owned,Tactical Green Metallic,truck,"3.8L V6, Bilstein off-road shocks, electronic locking diff, 9-inch touchscreen, 360 camera",Available
+30,Toyota,Highlander Hybrid,2024,XLE,44100,20,New,Cypress Green,suv,"2.5L hybrid, AWD, 12.3-inch touchscreen, Toyota Safety Sense 3.0, 3rd row, JBL audio",Available

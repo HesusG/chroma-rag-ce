@@ -72,8 +72,8 @@ All phases use Together.ai. These models are available in the UI dropdown (Phase
 
 | Model | Model ID | Notes |
 |-------|----------|-------|
-| Llama 3.3 70B (Free) | `meta-llama/Llama-3.3-70B-Instruct-Turbo-Free` | Default — best free option |
-| DeepSeek R1 70B (Free) | `deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free` | Reasoning model, verbose output |
+| Llama 3.3 70B | `meta-llama/Llama-3.3-70B-Instruct-Turbo` | Default — best free option |
+| DeepSeek R1 70B | `deepseek-ai/DeepSeek-R1-Distill-Llama-70B` | Reasoning model, verbose output |
 | Qwen 2.5 7B | `Qwen/Qwen2.5-7B-Instruct-Turbo` | Fast, uses free credits |
 | Llama 3.1 8B | `meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo` | Lightweight, uses free credits |
 

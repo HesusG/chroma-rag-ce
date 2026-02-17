@@ -163,7 +163,7 @@ and sends them as context to a Together.ai LLM for answer generation.
 export TOGETHER_API_KEY="your-key-here"
 
 # Optionally set a different model
-export TOGETHER_MODEL="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+export TOGETHER_MODEL="meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 python 04_retrieval_rag.py
 ```

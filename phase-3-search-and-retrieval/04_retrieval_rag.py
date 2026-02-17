@@ -33,7 +33,7 @@ load_dotenv()
 
 DATA_DIR = Path(__file__).parent / "data"
 
-DEFAULT_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
+DEFAULT_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 
 # ---------------------------------------------------------------------------

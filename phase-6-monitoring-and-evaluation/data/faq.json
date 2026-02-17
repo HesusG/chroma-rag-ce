@@ -1,82 +1,102 @@
 [
   {
     "question": "What financing options does AutoElite Motors offer?",
-    "answer": "We partner with over 20 national and local lenders to provide competitive rates for all credit profiles. New vehicle APR starts at 2.9% and used vehicle APR starts at 4.5% for qualified buyers. We offer loan terms of 24, 36, 48, 60, and 72 months with no prepayment penalties. First-time buyer programs are also available with a co-signer option."
+    "answer": "We partner with over 20 national and local lenders to provide competitive rates for all credit profiles. New vehicle APR starts at 2.9% and used vehicle APR starts at 4.5% for qualified buyers. We offer loan terms of 24, 36, 48, 60, and 72 months with no prepayment penalties. First-time buyer programs are also available with a co-signer option.",
+    "category": "financing"
   },
   {
     "question": "Can I schedule a test drive online?",
-    "answer": "Yes! You can schedule a test drive through our website at www.autoelitemotors.com or by calling us at (555) 123-4567. You will need a valid driver's license and proof of insurance. Test drives are typically 30 minutes long on a pre-approved route, and a sales associate will accompany you."
+    "answer": "Yes! You can schedule a test drive through our website at www.autoelitemotors.com or by calling us at (555) 123-4567. You will need a valid driver's license and proof of insurance. Test drives are typically 30 minutes long on a pre-approved route, and a sales associate will accompany you.",
+    "category": "financing"
   },
   {
     "question": "What are your service department hours?",
-    "answer": "Our service department is open Monday through Friday from 7:00 AM to 6:00 PM, and Saturday from 8:00 AM to 3:00 PM. We are closed on Sundays. You can book a service appointment online at www.autoelitemotors.com/service."
+    "answer": "Our service department is open Monday through Friday from 7:00 AM to 6:00 PM, and Saturday from 8:00 AM to 3:00 PM. We are closed on Sundays. You can book a service appointment online at www.autoelitemotors.com/service.",
+    "category": "service"
   },
   {
     "question": "How does the trade-in process work?",
-    "answer": "Bring your vehicle to our dealership for a free, no-obligation appraisal. We accept trade-ins of all makes, models, and conditions. Valuations are based on Kelley Blue Book, NADA guides, and live auction data. The appraisal is valid for 7 days. If you have an outstanding loan, we will pay it off directly and apply any positive equity toward your new purchase."
+    "answer": "Bring your vehicle to our dealership for a free, no-obligation appraisal. We accept trade-ins of all makes, models, and conditions. Valuations are based on Kelley Blue Book, NADA guides, and live auction data. The appraisal is valid for 7 days. If you have an outstanding loan, we will pay it off directly and apply any positive equity toward your new purchase.",
+    "category": "financing"
   },
   {
     "question": "What does the warranty cover on a new vehicle?",
-    "answer": "New vehicles come with the full manufacturer's warranty, which typically includes 3-year/36,000-mile bumper-to-bumper coverage, 5-year/60,000-mile powertrain coverage, and 3-year/36,000-mile roadside assistance. Hyundai and Kia models include an industry-leading 10-year/100,000-mile powertrain warranty."
+    "answer": "New vehicles come with the full manufacturer's warranty, which typically includes 3-year/36,000-mile bumper-to-bumper coverage, 5-year/60,000-mile powertrain coverage, and 3-year/36,000-mile roadside assistance. Hyundai and Kia models include an industry-leading 10-year/100,000-mile powertrain warranty.",
+    "category": "policies"
   },
   {
     "question": "Do you have a return policy?",
-    "answer": "Yes, we offer a 7-Day Money-Back Guarantee. You can return your vehicle within 7 calendar days of purchase for a full refund, provided it has fewer than 500 miles added and is in the same condition as delivered. Refunds are processed within 10 business days."
+    "answer": "Yes, we offer a 7-Day Money-Back Guarantee. You can return your vehicle within 7 calendar days of purchase for a full refund, provided it has fewer than 500 miles added and is in the same condition as delivered. Refunds are processed within 10 business days.",
+    "category": "sales"
   },
   {
     "question": "What is included in the Certified Pre-Owned program?",
-    "answer": "Our Certified Pre-Owned vehicles undergo a rigorous multi-point inspection and come with an extended powertrain warranty of up to 7 years or 100,000 miles, a 12-month/12,000-mile comprehensive warranty, a complimentary CARFAX report, and 24/7 roadside assistance."
+    "answer": "Our Certified Pre-Owned vehicles undergo a rigorous multi-point inspection and come with an extended powertrain warranty of up to 7 years or 100,000 miles, a 12-month/12,000-mile comprehensive warranty, a complimentary CARFAX report, and 24/7 roadside assistance.",
+    "category": "policies"
   },
   {
     "question": "Can I buy a car online from AutoElite Motors?",
-    "answer": "Yes, we offer a complete online purchasing experience. You can browse inventory, get pre-approved for financing, value your trade-in, and complete the purchase paperwork all from our website. We offer home delivery within a 50-mile radius for a flat fee of $199, or free pickup at the dealership."
+    "answer": "Yes, we offer a complete online purchasing experience. You can browse inventory, get pre-approved for financing, value your trade-in, and complete the purchase paperwork all from our website. We offer home delivery within a 50-mile radius for a flat fee of $199, or free pickup at the dealership.",
+    "category": "financing"
   },
   {
     "question": "Do you have electric vehicles in stock?",
-    "answer": "Absolutely! We carry a growing selection of electric vehicles including the Hyundai Ioniq 5, Ford Mustang Mach-E, Chevrolet Bolt EUV, Kia EV6, and the Jeep Wrangler 4xe plug-in hybrid. Our team is trained to answer all your EV questions, from range and charging to tax incentives."
+    "answer": "Absolutely! We carry a growing selection of electric vehicles including the Hyundai Ioniq 5, Ford Mustang Mach-E, Chevrolet Bolt EUV, Kia EV6, and the Jeep Wrangler 4xe plug-in hybrid. Our team is trained to answer all your EV questions, from range and charging to tax incentives.",
+    "category": "inventory"
   },
   {
     "question": "Is there an EV charging station at the dealership?",
-    "answer": "Yes, we have four Level 2 charging stations and one DC fast charger available at our dealership. Charging is complimentary for AutoElite Motors customers while their vehicle is being serviced or during a visit. We can also help you arrange home charging installation through our partner network."
+    "answer": "Yes, we have four Level 2 charging stations and one DC fast charger available at our dealership. Charging is complimentary for AutoElite Motors customers while their vehicle is being serviced or during a visit. We can also help you arrange home charging installation through our partner network.",
+    "category": "service"
   },
   {
     "question": "What documents do I need to buy a car?",
-    "answer": "You will need a valid driver's license, proof of insurance, and proof of residence (such as a utility bill). If you are financing, you will also need proof of income (recent pay stubs or tax returns). For trade-ins, please bring the vehicle title, current registration, and all keys and remotes."
+    "answer": "You will need a valid driver's license, proof of insurance, and proof of residence (such as a utility bill). If you are financing, you will also need proof of income (recent pay stubs or tax returns). For trade-ins, please bring the vehicle title, current registration, and all keys and remotes.",
+    "category": "financing"
   },
   {
     "question": "Do you offer delivery?",
-    "answer": "Yes, we offer home delivery within a 50-mile radius of our dealership for a flat fee of $199. Deliveries beyond 50 miles can be arranged for an additional per-mile charge. All delivery vehicles are fully detailed and arrive with a full tank of gas (or full charge for EVs)."
+    "answer": "Yes, we offer home delivery within a 50-mile radius of our dealership for a flat fee of $199. Deliveries beyond 50 miles can be arranged for an additional per-mile charge. All delivery vehicles are fully detailed and arrive with a full tank of gas (or full charge for EVs).",
+    "category": "sales"
   },
   {
     "question": "How do I make a warranty claim?",
-    "answer": "To make a warranty claim, bring your vehicle to our service department or call us at (555) 123-4567 to schedule an appointment. Our technicians will diagnose the issue and determine if it is covered under your warranty. If covered, repairs will be completed at no cost to you. We handle all manufacturer paperwork on your behalf."
+    "answer": "To make a warranty claim, bring your vehicle to our service department or call us at (555) 123-4567 to schedule an appointment. Our technicians will diagnose the issue and determine if it is covered under your warranty. If covered, repairs will be completed at no cost to you. We handle all manufacturer paperwork on your behalf.",
+    "category": "service"
   },
   {
     "question": "What is the minimum credit score needed for financing?",
-    "answer": "There is no strict minimum credit score to apply for financing at AutoElite Motors. We work with lenders who serve all credit profiles, from excellent to challenged credit. Rates and terms will vary based on your credit history. Our 0% APR promotional financing requires a minimum FICO score of 720."
+    "answer": "There is no strict minimum credit score to apply for financing at AutoElite Motors. We work with lenders who serve all credit profiles, from excellent to challenged credit. Rates and terms will vary based on your credit history. Our 0% APR promotional financing requires a minimum FICO score of 720.",
+    "category": "financing"
   },
   {
     "question": "Do you offer loaner vehicles during service?",
-    "answer": "Yes, we offer complimentary loaner vehicles for major repairs that are expected to take more than one business day. Loaner vehicles are available by reservation and subject to availability. For shorter visits, we provide a free shuttle service within a 15-mile radius of the dealership."
+    "answer": "Yes, we offer complimentary loaner vehicles for major repairs that are expected to take more than one business day. Loaner vehicles are available by reservation and subject to availability. For shorter visits, we provide a free shuttle service within a 15-mile radius of the dealership.",
+    "category": "financing"
   },
   {
     "question": "Are there any current promotions or deals?",
-    "answer": "Yes! We currently have several active promotions: our Spring Sales Event with up to 15% off MSRP on select models, 0% APR financing for up to 60 months on qualifying vehicles, a $1,500 Trade-In Bonus over market value, a $750 Military and First Responder discount, and our Referral Reward Program that pays $300 per successful referral."
+    "answer": "Yes! We currently have several active promotions: our Spring Sales Event with up to 15% off MSRP on select models, 0% APR financing for up to 60 months on qualifying vehicles, a $1,500 Trade-In Bonus over market value, a $750 Military and First Responder discount, and our Referral Reward Program that pays $300 per successful referral.",
+    "category": "financing"
   },
   {
     "question": "Can I get pre-approved for financing before visiting the dealership?",
-    "answer": "Yes, you can get pre-approved online through our website. The application takes about 5 minutes and does not affect your credit score (we use a soft inquiry for pre-approval). Once pre-approved, your rate and terms are locked for 30 days, giving you time to shop with confidence."
+    "answer": "Yes, you can get pre-approved online through our website. The application takes about 5 minutes and does not affect your credit score (we use a soft inquiry for pre-approval). Once pre-approved, your rate and terms are locked for 30 days, giving you time to shop with confidence.",
+    "category": "financing"
   },
   {
     "question": "What is your sales department's hours of operation?",
-    "answer": "Our sales showroom is open Monday through Friday from 9:00 AM to 8:00 PM, Saturday from 9:00 AM to 6:00 PM, and Sunday from 11:00 AM to 5:00 PM. You can also browse and purchase online 24/7 at www.autoelitemotors.com."
+    "answer": "Our sales showroom is open Monday through Friday from 9:00 AM to 8:00 PM, Saturday from 9:00 AM to 6:00 PM, and Sunday from 11:00 AM to 5:00 PM. You can also browse and purchase online 24/7 at www.autoelitemotors.com.",
+    "category": "sales"
   },
   {
     "question": "Do you offer gap insurance?",
-    "answer": "Yes, we offer Guaranteed Asset Protection (GAP) insurance through our finance department. GAP insurance covers the difference between your vehicle's actual cash value and the remaining balance on your loan in the event of a total loss. This is especially recommended for buyers with low down payments or long-term loans."
+    "answer": "Yes, we offer Guaranteed Asset Protection (GAP) insurance through our finance department. GAP insurance covers the difference between your vehicle's actual cash value and the remaining balance on your loan in the event of a total loss. This is especially recommended for buyers with low down payments or long-term loans.",
+    "category": "financing"
   },
   {
     "question": "How often should I service my new vehicle?",
-    "answer": "We recommend following the manufacturer's maintenance schedule outlined in your owner's manual. As a general guideline, oil changes are recommended every 5,000 to 7,500 miles for conventional oil or 7,500 to 10,000 miles for synthetic oil. Tire rotations should be done every 5,000 to 7,500 miles. Our service advisors can set up a personalized maintenance plan for your specific vehicle."
+    "answer": "We recommend following the manufacturer's maintenance schedule outlined in your owner's manual. As a general guideline, oil changes are recommended every 5,000 to 7,500 miles for conventional oil or 7,500 to 10,000 miles for synthetic oil. Tire rotations should be done every 5,000 to 7,500 miles. Our service advisors can set up a personalized maintenance plan for your specific vehicle.",
+    "category": "service"
   }
 ]

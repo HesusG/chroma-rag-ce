@@ -206,7 +206,7 @@ Trace: "What SUVs are available under $40,000?"
   |     Distances: [0.42, 0.58, 0.71, 0.89]
   |
   +-- LLM span (1,230ms)
-        Model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+        Model: meta-llama/Llama-3.3-70B-Instruct-Turbo
         Input tokens: 847
         Output tokens: 256
         Prompt: [system message + context + user question]

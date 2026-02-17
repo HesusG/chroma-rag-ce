@@ -228,7 +228,7 @@ def main():
     # ----------------------------------------------------------------
     # Step 3: Initialize the LLM
     # ----------------------------------------------------------------
-    model_name = os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free")
+    model_name = os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo")
     print(f"[Step 3] Initializing LLM: {model_name}")
     print("  Using Together.ai as the LLM provider.")
     print()

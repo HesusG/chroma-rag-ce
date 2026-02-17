@@ -102,7 +102,7 @@ def run_comparison():
     """Send the same query with each prompt level and display results."""
 
     llm = ChatTogether(
-        model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        model="meta-llama/Llama-3.3-70B-Instruct-Turbo",
         temperature=0.3,
         max_tokens=512,
     )

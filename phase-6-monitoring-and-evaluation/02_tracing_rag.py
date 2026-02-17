@@ -227,7 +227,7 @@ def build_rag_chain(documents: list[dict]):
 
     # Initialize the LLM.
     llm = ChatTogether(
-        model=os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"),
+        model=os.getenv("TOGETHER_MODEL", "meta-llama/Llama-3.3-70B-Instruct-Turbo"),
         temperature=0.3,
         max_tokens=1024,
     )
